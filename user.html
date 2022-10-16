@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Template Mo">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
+    <title>Live Connect ∞</title>
+<!--
+
+ART FACTORY
+
+https://templatemo.com/tm-537-art-factory
+
+-->
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/templatemo-art-factory.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl-carousel.css">
+
+        
+        <style>
+            table {width:80%; padding:5px;}
+            td {width:17%; }
+            option {padding:5px;}
+            li {
+                display:inline !important;
+                list-style-type: none;
+                padding-right: 10px;
+            }
+            .strikeout {
+              color: blue;
+            }
+
+            .sel:first-child{
+               text-decoration: line-through;
+            }
+        </style>
+    </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="#" class="logo"><img width="130px" src="liveLogo130.png"></a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#welcome" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#about">About</a></li>
+                            <li class="scroll-to-section"><a href="#services">Services</a></li>
+                            <li class="scroll-to-section"><a href="#frequently-question">Frequently Questions</a></li>
+                            <li class="submenu">
+                                <a href="javascript:;">Drop Down</a>
+                                <ul>
+                                    <li><a href="">About Us</a></li>
+                                    <li><a href="">Features</a></li>
+                                    <li><a href="">FAQ's</a></li>
+                                    <li><a href="">Blog</a></li>
+                                </ul>
+                            </li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+
+    <!-- ***** Welcome Area Start ***** -->
+    <div class="welcome-area" id="welcome" style="position: inherit; height:320px;">
+        <h1 id='myname' style='padding-top:100px;color:white;align:left;'>a</h1>
+       
+        <!-- ***** Header Text End ***** -->
+    </div>
+    <!-- ***** Welcome Area End ***** -->
+    
+    <div style="padding:50px;">
+        <!-- ***** Header Text Start ***** -->
+        <div class="header-text" style="height: 100px;">
+            <div class="container">
+               
+                <div height='100px'><h2 style="float:left;padding:30px;" id='tutor'>Maths Tutor</h2>
+                   <!-- <a href="videocall/app-index.html" class="main-button" style="float:left;">Quick 5 minute call</a></div> -->
+                <button id="engage-digital-click-to-call-btn" class="main-button" style="float:left;font-size: 44px;" onclick="startVid()">Quick 5 minute call</button>
+            </div>
+        </div>
+    </div>
+        
+        <div style="clear: both;"></div>
+    <div style="padding:50px;">
+        <img id='mypic' src='' style="float:left;">
+            <h5 style="float:left;padding:10px;" id='info'>An experience maths tutor, she has a Bachelors of Mathematics from Melbourne University, and has been tutoring high school maths studends for over 4 years. She has a friendly patient demeanor.</h5>
+    </div>
+    
+    <div style="clear: both;"></div>
+    
+    
+<div style="padding:50px;">
+            <label for="birthday">Tutoring:</label>
+            <label for="cars">Choose a time:</label>
+            <table><tr><td>Monday<td>Tuesday<td>Wednesday<td>Thursday<td>Friday
+                <tr><td>
+              <select id="mon" name="mon" size="4" multiple onchange='changeLevel()'>
+                <option value="5" disabled class="strikeout text-style">5:00pm</option>
+                <option value="6">6:00pm</option>
+                <option value="7">7:00pm</option>
+                <option value="8" disabled class="strikeout text-style">8:00pm</option>
+              </select><td>
+                  <select id="tue" name="tue" size="4" multiple>
+                    <option value="5" disabled class="strikeout text-style">5:00pm</option>
+                    <option value="6" disabled class="strikeout text-style">6:00pm</option>
+                    <option value="7" disabled class="strikeout text-style">7:00pm</option>
+                    <option value="8" disabled class="strikeout text-style">8:00pm</option>
+                  </select><td>
+                      <select id="wed" name="wed" size="4" multiple>
+                        <option value="5">5:00pm</option>
+                        <option value="6">6:00pm</option>
+                        <option value="7">7:00pm</option>
+                        <option value="8">8:00pm</option>
+                      </select><td>
+                          <select id="thu" name="thu" size="4" multiple>
+                            <option value="5">5:00pm</option>
+                            <option value="6">6:00pm</option>
+                            <option value="7">7:00pm</option>
+                            <option value="8">8:00pm</option>
+                          </select><td>
+                              <select id="fri" name="fre" size="4" multiple>
+                                <option value="5">5:00pm</option>
+                                <option value="6">6:00pm</option>
+                                <option value="7">7:00pm</option>
+                                <option value="8">8:00pm</option>
+                              </select>
+                  </table>
+            
+            <br><br>
+            <select id="week" name="week" size="4" multiple onchange='changeLevel()'>
+              <option value="5">5 weeks</option>
+              <option value="10">10 weeks</option>
+              <option value="20">20 weeks</option>
+            </select>
+            <br><br>Booking fee:<h2 id='poppay'><h2>
+                <img src='paypal.png'>
+              <input type="submit">
+    </div>
+
+<div style="clear: both;"></div>
+
+
+<div style="padding:50px;" id="vid" style="">
+    <video id="engage-digital-local-video" autoplay loop muted playsinline style="width:49%;background-color:gray"></video>
+    
+    <video id="engage-digital-remote-video" autoplay loop playsinline style="width:49%;background-color:gray"></video>
+    
+    <div id='engage-digital-alert'></div>
+</div>
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-sm-12">
+                    <p class="copyright">Copyright &copy; 2020 Art Factory Company 
+                
+                . Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
+                </div>
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <ul class="social">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        
+        const people = [
+            { name: 'adri', subject: 'maths', pic:'v2_0399490.jpg',i:'1',info:'An experience maths tutor, she has a Bachelors of Mathematics from Melbourne University, and has been tutoring high school maths studends for over 4 years. She has a friendly patient demeanor.'},
+            { name: 'becky', subject: 'english', pic:'v3_0133321.jpg',i:'2',info:'An experience english tutor, she had been teaching English at high school level for 5 years'},
+            { name: 'christine', subject: 'yoga', pic:'v3_0256895.jpg',i:'3',info:'Christine has been running her own yoga studio for 6 years, and trained 1000s of people.'},
+            { name: 'dill', subject: 'gardening', pic:'v3_0302739.jpg',i:'4',info:'Dill had the largest garden in her town.'},
+            { name: 'evanette', subject: 'engine repair', pic:'v3_0627367.jpg',i:'5',info:'Expert in Diesel engine repair, marine and trucks'},
+            { name: 'franky', subject: 'maths', pic:'v3_0703452.jpg',i:'6',info:'A maths teacher'},
+            { name: 'georgette', subject: 'maths', pic:'v3_0785206.jpg',i:'7',info:''},
+        ];
+        
+        function capitalizeFirstLetter(string) {
+          return string.charAt(0).toUpperCase() + string.slice(1);
+        }
+
+        
+        function changeLevel(){
+          var level;
+          
+          var mon=document.getElementById("mon").value;
+          var tue=document.getElementById("tue").value;
+          var wed=document.getElementById("wed").value;
+          var thu=document.getElementById("thu").value;
+          var fri=document.getElementById("fri").value;
+          var week=document.getElementById("week").value;
+          
+          document.getElementById("poppay").innerHTML=0+50*( (mon!="" ) )*week;
+        }
+        changeLevel();
+        
+        function startVid(){
+            
+            document.getElementById('vid').display = 'block';
+            document.getElementById('vid').scrollIntoView();
+        }
+        
+
+
+        
+        var para = new URLSearchParams(window.location.search);
+        var nname = para.get("name");
+        var i = para.get("i");
+       // document.getElementById("myname").innerHTML = nname;
+       // document.getElementById("mypic").src = 'assets/profile/'+para.get("pic");
+        
+        var p=people.filter(person => {
+            return person.i.includes(i)
+        });
+        document.getElementById("myname").innerHTML=capitalizeFirstLetter(p[0].name);
+        document.getElementById("mypic").src = 'assets/profile/'+p[0].pic;
+        document.getElementById("tutor").innerHTML=capitalizeFirstLetter(p[0].subject)+" Tutor";
+        document.getElementById("info").innerHTML=p[0].info;
+        
+       // console.log(p[0]);
+        </script>
+    
+    
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+    <script src="videocall/engage-digital-click-to-call-config.js"></script>
+    <script src="videocall/engage-digital-click-to-call.js"></script>
+
+    <script>
+    
+    
+    </script>
+    
+  </body>
+</html>
